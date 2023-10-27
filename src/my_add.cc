@@ -2,6 +2,6 @@
 #include <iostream>
 
 template<typename T>
-void my_add(const T a, const T b, T& c) {
-    c = a + b;
+T my_add(const T a, const T b, T& c) {
+    return a + b;
 }
