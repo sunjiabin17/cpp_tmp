@@ -15,7 +15,6 @@ target_include_directories(
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
 )
 
-
 include(GNUInstallDirs)
 install(
     TARGETS my_add
