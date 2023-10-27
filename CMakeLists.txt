@@ -4,7 +4,7 @@ project(my_add CXX)
 
 set(CMAKE_BUILD_TYPE Release)
 
-add_library(my_add SHARED src/my_add.cc)
+add_library(my_add SHARED src/my_add.cc include/my_add.h)
 
 target_compile_features(my_add PUBLIC cxx_std_17)
 target_compile_options(my_add PRIVATE -Wall -Wextra -pedantic -Werror)
