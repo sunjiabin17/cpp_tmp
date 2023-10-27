@@ -1,4 +1,3 @@
 #pragma once
 
-template<typename T>
-T my_add(const T a, const T b);
+int my_add(const int a, const int b);

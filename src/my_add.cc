@@ -1,7 +1,7 @@
 #include "my_add.h"
 #include <iostream>
 
-template<typename T>
-T my_add(const T a, const T b) {
-    return a + b;
+int my_add(const int a, const int b) {
+  std::cout << "my_add(int, int) called" << std::endl;
+  return a + b;
 }
